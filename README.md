@@ -126,6 +126,12 @@ https://localhost:5000/api/tasks replace with https://to-do-list-backend-tau.ver
 ```
 npm start
 ```
+
+### DEPLOYED IN VERCEL.APP
+```
+https://to-do-list-three-pearl.vercel.app/
+```
+ 
 OUTPUT
 ![image](https://github.com/user-attachments/assets/ee38eaf7-7f1b-4a70-8fca-7e9f404fa561)
 
