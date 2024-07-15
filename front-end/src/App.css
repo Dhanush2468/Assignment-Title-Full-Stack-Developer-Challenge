@@ -1,0 +1,94 @@
+
+.task-manager-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure full viewport height coverage */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-form button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.task-form input,
+.task-form button {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.task-manager-card {
+  display: flex;
+  width: 300px; /* Adjust width as needed */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-card {
+  flex: 1;
+}
+
+.status-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px; /* Adjust margin between cards */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.task-actions button {
+  background-color: #f44336; /* Red background */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+.task-actions button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
